@@ -30,10 +30,10 @@ A Spring Boot backend application for storing and retrieving user location data.
 ![Postman Screenshot](postman-test.png)
 
 ### Get Locations (GET)
-![Postman Screenshot](Screenshot 2026-04-29 164802.png)
+![Postman Screenshot](postman-get.png)
 
 ### Get Locations (GET)
-![Postman Screenshot](Screenshot 2026-04-29 164802.png)
+![Postman Screenshot](postman-get.png)
 ## 🔗 API Endpoints
 
 ### Save Location
