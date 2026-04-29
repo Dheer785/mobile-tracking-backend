@@ -33,10 +33,7 @@ A Spring Boot backend application for storing and retrieving user location data.
   "latitude": 12.9716,
   "longitude": 77.5946
 }
-## API Endpoints
 
-### Save Location
-**POST** `/api/locations`
 
 ``
 ```
