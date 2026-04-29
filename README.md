@@ -23,13 +23,14 @@ A Spring Boot backend application for storing and retrieving user location data.
 ## 📸 API Testing
 
 ### Save Location (POST)
-![Postman Screenshot](## 📸 API Testing
+![Postman Screenshot](postman-test.png
+
 
 ### Save Location (POST)
-![Postman Screenshot](your-image-link)
+![Postman Screenshot](postman-test.png)
 
 ### Get Locations (GET)
-![Postman Screenshot](your-image-link))
+![Postman Screenshot]())
 
 ### Get Locations (GET)
 ![Postman Screenshot]()
