@@ -1,4 +1,4 @@
-:::writing{variant="standard" id="44123"}
+
 # 📍 Mobile Tracking Backend
 
 A Spring Boot backend application for storing and retrieving user location data.
