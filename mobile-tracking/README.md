@@ -41,11 +41,4 @@ GET /api/locations
 Open in IDE
 Run MobileTrackingApplication.java
 Test using Postman
-:::
-🔥 After this fix
 
-Now when you click Preview, it will:
-
-Show ONE clean title ✅
-Proper sections ✅
-Highlight JSON nicely ✅
