@@ -1,4 +1,5 @@
-📍 Mobile Tracking Backend
+📍
+Mobile Tracking Backend
 
 A Spring Boot backend application for storing and retrieving user location data.
 
@@ -18,6 +19,7 @@ Save Location
 
 POST /api/locations
 
+Request Body
 {
   "latitude": 12.9716,
   "longitude": 77.5946
