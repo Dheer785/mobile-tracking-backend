@@ -1,4 +1,4 @@
-Mobile Tracking Backend
+ Mobile Tracking Backend
 
 A Spring Boot backend application for storing and retrieving user location data.
 
@@ -6,39 +6,38 @@ A Spring Boot backend application for storing and retrieving user location data.
 Save user location (latitude, longitude)
 Retrieve all stored locations
 RESTful API design
-Clean layered architecture (Controller → Service → Repository)
+Layered architecture (Controller → Service → Repository)
  Tech Stack
 Java
 Spring Boot
 Spring Data JPA
 Maven
 REST APIs
- Project Structure
+Project Structure
 controller → Handles API requests
 service → Business logic
 repository → Database operations
 model → Entity classes
 🔗 API Endpoints
-1. Save Location
+ Save Location
 
 POST /api/locations
 
-Request Body:
-
+Request Body
 {
   "latitude": 12.9716,
   "longitude": 77.5946
 }
-2. Get All Locations
+Get All Locations
 
 GET /api/locations
 
  How to Run
-Clone repo
-Open in IDE
+Clone the repository
+Open in your IDE
 Run MobileTrackingApplication.java
 Test APIs using Postman
  Future Improvements
 Add authentication (Spring Security)
 Add real-time tracking
-Add database (MySQL/PostgreSQL)
+Integrate MySQL/PostgreSQL database
