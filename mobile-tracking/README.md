@@ -33,7 +33,22 @@ A Spring Boot backend application for storing and retrieving user location data.
   "latitude": 12.9716,
   "longitude": 77.5946
 }
-### 📍 Get All Locations
+## API Endpoints
+
+### Save Location
+**POST** `/api/locations`
+
+#### Request Body
+```json
+{
+  "latitude": 12.9716,
+  "longitude": 77.5946
+}
+```
+
+---
+
+### Get All Locations
 **GET** `/api/locations`
 
 #### Response Example
@@ -45,4 +60,5 @@ A Spring Boot backend application for storing and retrieving user location data.
     "longitude": 77.5946
   }
 ]
+
 
