@@ -1,25 +1,34 @@
-📍
-Mobile Tracking Backend
+:::writing{variant="standard" id="44123"}
+# 📍 Mobile Tracking Backend
 
 A Spring Boot backend application for storing and retrieving user location data.
 
-🚀 Features
-Save user location (latitude, longitude)
-Retrieve all stored locations
-RESTful API design
-Layered architecture (Controller → Service → Repository)
-🛠️ Tech Stack
-Java
-Spring Boot
-Spring Data JPA
-Maven
-REST APIs
-🔗 API Endpoints
-Save Location
+---
 
-POST /api/locations
+## 🚀 Features
+- Save user location (latitude, longitude)
+- Retrieve all stored locations
+- RESTful API design
+- Layered architecture (Controller → Service → Repository)
 
-Request Body
+---
+
+## 🛠️ Tech Stack
+- Java
+- Spring Boot
+- Spring Data JPA
+- Maven
+- REST APIs
+
+---
+
+## 🔗 API Endpoints
+
+### Save Location
+**POST** `/api/locations`
+
+#### Request Body
+```json
 {
   "latitude": 12.9716,
   "longitude": 77.5946
@@ -32,3 +41,11 @@ GET /api/locations
 Open in IDE
 Run MobileTrackingApplication.java
 Test using Postman
+:::
+🔥 After this fix
+
+Now when you click Preview, it will:
+
+Show ONE clean title ✅
+Proper sections ✅
+Highlight JSON nicely ✅
