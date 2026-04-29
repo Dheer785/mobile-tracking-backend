@@ -36,9 +36,14 @@ A Spring Boot backend application for storing and retrieving user location data.
 Get All Locations
 
 GET /api/locations
+/api/locations
 
-▶️ Run the Project
-Open in IDE
-Run MobileTrackingApplication.java
-Test using Postman
+Response Example
+[
+  {
+    "id": 1,
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  }
+]
 
