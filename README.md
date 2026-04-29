@@ -34,15 +34,4 @@ A Spring Boot backend application for storing and retrieving user location data.
 }
 ---
 
-### 2. Get All Locations
-**GET** `/api/locations`
 
-#### Response Example
-```json
-[
-  {
-    "id": 1,
-    "latitude": 12.9716,
-    "longitude": 77.5946
-  }
-]
