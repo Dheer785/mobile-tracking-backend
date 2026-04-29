@@ -32,13 +32,12 @@ A Spring Boot backend application for storing and retrieving user location data.
   "latitude": 12.9716,
   "longitude": 77.5946
 }
----
 
-### 2. Get All Locations
-**GET** `/api/locations`
+2. Get All Locations
 
-#### Response Example
-```json
+GET /api/locations
+
+Response Example
 [
   {
     "id": 1,
@@ -46,4 +45,3 @@ A Spring Boot backend application for storing and retrieving user location data.
     "longitude": 77.5946
   }
 ]
-
